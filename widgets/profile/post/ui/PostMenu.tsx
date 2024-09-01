@@ -11,8 +11,6 @@ import d from '@/shared/components/dropDown.module.scss'
 import s from '@/widgets/profile/post/ui/post.module.scss'
 import {More} from '@/public/icons/More'
 import {DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger} from '@radix-ui/react-dropdown-menu'
-import {Edit} from '@/public/icons/Edit'
-import {Trash} from '@/public/icons/Trash'
 
 
 
