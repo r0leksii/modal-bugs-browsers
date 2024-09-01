@@ -1,0 +1,57 @@
+
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+
+  width: 100%;
+  max-width: 1000px;
+  background-color: gray;
+}
+
+.imgWrapper {
+  width: 50%;
+}
+
+.postInfoWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  width: 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+  width: 100%;
+  padding: 11px 24px;
+  background-color: gray;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+
+  width: 100%;
+  padding: 24px 24px 8px;
+}
+
+.grey {
+  color: gray;
+}
+
+.modalPostEdit {
+  width: auto;
+  max-width: none;
+}

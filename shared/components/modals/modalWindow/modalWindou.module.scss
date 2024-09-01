@@ -1,0 +1,21 @@
+.root {
+  padding: 24px;
+  width: 100%;
+  z-index: 999999999999;
+}
+
+.textButton {
+  width: 30px;
+}
+
+.controller {
+  padding-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 7px;
+}
+
+.button {
+  width: 86px;
+}

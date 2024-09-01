@@ -1,0 +1,55 @@
+
+.container {
+  display: flex;
+  height: 504px;
+
+  background-color: gray;
+}
+
+.header {
+  dispaly: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+
+
+  height: 60px;
+  padding: 0 0 0 15px;
+}
+
+.imageContainer {
+  position: relative;
+
+  overflow: hidden;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+
+  width: 492px;
+  height: 504px;
+}
+
+.formBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  width: 492px;
+  height: 100%;
+  padding: 25px;
+}
+
+.textareaInput {
+  min-height: 120px;
+}
+
+.avatarContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+}
+
+.button {
+  align-self: flex-end;
+}
